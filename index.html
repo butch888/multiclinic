@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Multiclinic</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__logo">
+                    <div class="menu-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="logo">
+                        <img src="./images/LOGO.png" alt="LOGO">
+                    </div>
+                    <div class="address">
+                        <img src="./images/map-icon.png" alt="">&nbsp;Ростов-на-Дону<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="street">ул. Ленина, 2Б</span>
+                    </div>
+                </div>
+                <div class="header__phone">
+                    <div class="phone">
+                        <a href="tel:+79061800916"><img class="phone-icon" src="./images/phone-icon.png" alt="phone"></a>&nbsp;+7(863) 000 00 00 <br> <span class="city">Ростов-на-дону</span>
+                    </div>
+                    <div>
+                        <button class="btn1">Записаться на прием</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <nav class="header-nav">
+            <ul class="nav" class="menu">
+                <li><a href="#">О клинике</a></li>
+                <li><a href="#">Услуги</a></li>
+                <li><a href="#">Специалисты</a></li>
+                <li><a href="#">Цены</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+    </nav>
+    <div class="menu">
+        <nav>
+            <ul>
+                <li><a href="#">О клинике</a></li>
+                <li><a href="#">Услуги</a></li>
+                <li><a href="#">Специалисты</a></li>
+                <li><a href="#">Цены</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+        <button onclick="openModal()" class="btn2">Записаться на прием</button>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeModal()">&times;</span>
+              <input class="form1" type="text" placeholder="Ведите ваше имя" id="enter1">
+              <input class="form2" type="tel" placeholder="Введите ваш телефон" id="enter2">
+              <button class="btn2">Отправить</button>
+            </div>
+        </div>
+    </div>
+        <main class="main">
+            <div class="container">
+                <div class="subscribe">
+                    <h1 class="title">Многопрофильная клиника для детей и взрослых</h1>
+                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                </div>
+                    <img class="pic" src="./images/main-img.png" alt="">
+                <div class="subscribe-hidden">
+                    <h1 class="title">Многопрофильная клиника для детей и взрослых</h1>
+                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                </div>
+            </div>
+            <div class="content">
+                <div class="content-title">
+                    <p class="title">Check-UP</p>
+                    <p class="subscribes">для мужчин</p>
+                    <ul>
+                        <li><img src="./images/icon-list.png" alt="">Гормональный скрининг
+                        <li><img src="./images/icon-list.png" alt="">Тестостерон</li>
+                        <li><img src="./images/icon-list.png" alt="">Свободный тестостерон</li>
+                        <li><img src="./images/icon-list.png" alt="">Глобулин, связывающий половые гормоны</li>
+                    </ul>
+                    <p class="price">Всего 2800₽ <span class="sub-price">3500₽</span> </p>
+                    <button class="btn1">Записаться</button>&nbsp;&nbsp;&nbsp;
+                    <button class="btn2">Подробнее</button>
+                </div>
+                <div class="content-pic">
+                    <img src="./images/doctor2.png" alt="">
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="logo"><img src="./images/LOGO-FOOTER.png" alt=""></div>
+                <div class="link">
+                    <ul class="nav" class="menu">
+                        <li><a href="#">О клинике</a></li>
+                        <li><a href="#">Услуги</a></li>
+                        <li><a href="#">Специалисты</a></li>
+                        <li><a href="#">Цены</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="socials">
+                    <a href="#"><img src="./images/insta.png" alt="icon"></a>
+                    <a href="#"><img src="./images/wthsapp.png" alt="icon"></a>
+                    <a href="#"><img src="./images/telegram.png" alt="icon"></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
