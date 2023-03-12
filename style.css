@@ -146,13 +146,13 @@ main .container {
     background-color: #F8FBFA;
 }
 .pic {
-    max-width: 50%;
+    max-width: 40%;
     width: 950px;
     height: auto;
 }
 .subscribe {
-    max-width: 390px;
-    margin: 0 12% 0 21%;
+    max-width: 350px;
+    margin: 0 12% 0 11%;
 }
 .title {
     font-weight: 700;
